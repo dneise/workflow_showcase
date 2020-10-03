@@ -3,5 +3,5 @@ services:
 
 script:
 - docker pull acscommunity/acs
-- docker run -v $PWD:/host acscommunity/acs /bin/bash -c "whoami && date && ls -larth && env"
-
+# - docker run -v $PWD:/host acscommunity/acs /bin/bash -c "whoami && date && ls -larth && env"
+- docker run --rm -v $PWD:/test --name=acs acscommunity/acs /bin/bash -c "source ~/.bashrc && acsStart"

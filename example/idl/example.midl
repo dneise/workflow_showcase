@@ -1,0 +1,24 @@
+#ifndef example_IDL
+#define example_IDL
+
+// IDL from ACS
+#include <acscomponent.idl>
+#include <acscommon.idl>
+
+
+#pragma prefix "cta"
+
+module example {
+
+  interface ExampleComponent : ACS::ACSComponent {
+
+    void set_a_number(in long long a_number);
+
+    readonly attribute long long a_number;
+  }; // ExampleComponent
+
+}; // module example
+
+#endif /* example_IDL */
+
+

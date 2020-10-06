@@ -15,9 +15,9 @@ class ExampleComponent(
         ContainerServices.__init__(self, *args, **kw)
         self._a_number = 0
 
-    def set_a_number(self, a_number):
+    def set(self, a_number):
         self._a_number = a_number
 
     @property
-    def a_number(self):
+    def value(self):
         return self._a_number

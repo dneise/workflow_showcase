@@ -2,3 +2,4 @@ example/__pycache__
 example/lib
 example/object
 INTROOT
+example/idl/example.idl

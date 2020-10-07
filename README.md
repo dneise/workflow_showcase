@@ -3,7 +3,7 @@ repo to show how to let the work flow :D
 
 # Purpose
 
-ACS Component, which can store “a_number“ and
+ACS Component, which can store “a_number“ and - fixing a type
 publish it as an attribute.
 
 ![Store a number image](https://cdn.pixabay.com/photo/2017/08/10/00/28/containers-2616457_960_720.jpg "Store a number image")

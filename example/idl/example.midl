@@ -12,9 +12,9 @@ module example {
 
   interface ExampleComponent : ACS::ACSComponent {
 
-    void set_a_number(in long long a_number);
+    void set(in long long a_number);
 
-    readonly attribute long long a_number;
+    readonly attribute long long value;
   }; // ExampleComponent
 
 }; // module example

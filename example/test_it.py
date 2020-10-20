@@ -2,6 +2,7 @@ from Acspy.Clients.SimpleClient import PySimpleClient
 
 client = PySimpleClient()
 
+print("yessss")
 
 def test_component_creation():
     comp = client.getDynamicComponent(
